@@ -10,4 +10,4 @@ docker build -t webapp:latest --build-arg configuration="staging" .
 docker build -t webapp:latest .
 
 # run imagen
-
+docker run -d -p 4200:80 webapp:1.0
